@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :helped_repo do
     association :user
     association :repo

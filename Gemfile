@@ -48,7 +48,7 @@ end
 group :development, :test do
   gem 'pry'
   gem 'sqlite3'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails', '2.99.0' # LOCKED DOWN
   gem 'spring'

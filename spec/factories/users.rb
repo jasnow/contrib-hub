@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :user do
     sequence(:github_id) {|n| "#{Faker::Lorem.word}#{n}" }
     name { Faker::Name.name }

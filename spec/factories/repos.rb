@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :repo do
     association :user
     github_url { Faker::Internet.url }

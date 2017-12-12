@@ -9,7 +9,7 @@ describe User do
   end
 
   describe "validations" do
-    let(:user) { FactoryGirl.build(:user) }
+    let(:user) { FactoryBot.build(:user) }
 
     it "is invalid without a github_id" do
       user.github_id = nil

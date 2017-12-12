@@ -4,8 +4,8 @@
 
 if Rails.env.development? && User.count == 0
 	require 'faker'
-	require 'factory_girl_rails'
-	include FactoryGirl::Syntax::Methods
+	require 'factory_bot_rails'
+	include FactoryBot::Syntax::Methods
 
 	puts 'Inserting sample users'
 
